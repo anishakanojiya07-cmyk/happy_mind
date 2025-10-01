@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mental Wellness Buddy</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>🧠 Mental Wellness Buddy</h1>
+  
+  <div class="form">
+    <h2>How are you feeling today?</h2>
+    <select id="mood">
+      <option value="">-- Select Mood --</option>
+      <option value="Happy">😊 Happy</option>
+      <option value="Sad">😢 Sad</option>
+      <option value="Stressed">😖 Stressed</option>
+      <option value="Excited">🤩 Excited</option>
+      <option value="Calm">😌 Calm</option>
+    </select>
+    <button onclick="logMood()">Log Mood</button>
+  </div>
+
+  <div class="tips">
+    <h2>🌸 Wellness Tip</h2>
+    <p id="tipBox">Select a mood to see a helpful tip!</p>
+  </div>
+
+  <div class="chart-container">
+    <h2>📊 Mood History (Last 7 Days)</h2>
+    <canvas id="moodChart"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

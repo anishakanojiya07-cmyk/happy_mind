@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c5282;
+}
+
+.form, .tips, .chart-container {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+select, button {
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #2c5282;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a365d;
+}
+
+#tipBox {
+  font-style: italic;
+  color: #333;
+}
